@@ -157,6 +157,7 @@ def build_emi_schedule(
 st.set_page_config(page_title="EMI Schedule Dashboard", layout="wide")
 
 st.title("🏦 EMI Schedule Dashboard")
+st.markdown("### Mulagund & Co, Chartered Accountants")
 st.caption("Build amortization schedules with prepayments and rate changes. Download, chart, and compare scenarios.")
 
 with st.sidebar:
